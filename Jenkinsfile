@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
 
-        stage('clean') {
+        stage('clonegit') {
             steps {
                 git credentialsId: '3232a051-78eb-4b41-95ae-cbaad89ea2fa', url: 'https://github.com/fernandokarnagi/simple-java-maven-app.git'
             }
