@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('cleaning') {
           steps {
             echo 'cleaning'
           }
@@ -26,7 +26,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('packaging') {
           steps {
             echo 'packaging'
           }
@@ -43,7 +43,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('Installing') {
           steps {
             echo 'Installing'
           }
